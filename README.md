@@ -1,2 +1,16 @@
-# App-Deployment-on-Kubernetes-Cluster
-Managed and deployed applications on Kubernetes clusters. This project includes setting up a Kubernetes cluster, creating Docker images for the application, writing Kubernetes deployment and service files, and managing the application lifecycle using Kubernetes tools.
+# My Kubernetes Project
+
+## Description
+This project demonstrates how to deploy an application on a Kubernetes cluster.
+
+## Files
+- `Dockerfile`: Docker image definition for the application.
+- `deployment.yaml`: Kubernetes deployment configuration.
+- `service.yaml`: Kubernetes service configuration.
+
+## Steps to Deploy
+
+1. **Build Docker Image**
+   ```sh
+   docker build -t my-dockerhub-username/my-app:latest .
+
